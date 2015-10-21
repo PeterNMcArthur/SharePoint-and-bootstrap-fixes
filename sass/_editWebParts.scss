@@ -1,0 +1,9 @@
+/// @author: Peter McArthur
+/// @date: 17-03-2015
+/// @description: Shows the full menu arrow for editing webparts.
+
+span.ms-webpart-controlBox * { 
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}

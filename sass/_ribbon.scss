@@ -1,0 +1,9 @@
+/// @author: Peter McArthur
+/// @date: 17-03-2015
+/// @description: Stops bootstrap from effecting the box-sizing of the ribbon elements which causes various style bugs 
+
+div#ms-designer-ribbon * { 
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}

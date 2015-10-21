@@ -1,0 +1,26 @@
+div#ms-designer-ribbon * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+.label {
+  font-size: 1em;
+  font-family: inherit;
+  white-space: normal; }
+
+div.ms-dlgContent * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+span.ms-webpart-controlBox * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+.js-callout-headerArea * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/*# sourceMappingURL=style.css.map */

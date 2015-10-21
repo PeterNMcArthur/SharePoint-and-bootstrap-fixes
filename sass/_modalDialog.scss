@@ -1,0 +1,17 @@
+/// @author: Peter McArthur
+/// @date: 17-03-2015
+/// @description: fixes various alignment issues with the dialog modals.
+
+// fixes overflow issues with labels
+.label { 
+  font-size: 1em;
+  font-family: inherit;
+  white-space: normal;
+}
+
+// fixes layout issues with components within the 
+div.ms-dlgContent * { 
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}

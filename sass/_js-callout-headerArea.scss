@@ -1,0 +1,9 @@
+/// @author: Peter McArthur
+/// @date: 23-03-2015
+/// @description: Corrects the alignment of the close icon on the js callouts
+
+.js-callout-headerArea * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
